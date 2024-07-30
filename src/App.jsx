@@ -4,6 +4,7 @@ import getRandom from "./helpers/getRandom";
 import Cookie from "./components/Cookie";
 import photos from "./data/photos.json";
 import "./styles/App.css";
+import image from "../public/klipartz.com.png";
 
 function App() {
   const indexRandom = getRandom(phrases.length);
@@ -26,7 +27,7 @@ function App() {
         setBgSelected={setBgSelected}
       />
       <img
-        src="../src/assets/klipartz.com.png"
+        src={image}
         alt="Manos abriendo una galleta de la fortuna"
         className="overlay-image"
       />
