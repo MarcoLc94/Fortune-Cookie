@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+
+  background-size: cover;
+
+  h1 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px 0 orange, -2px 2px 0 orange, 2px -2px 0 orange,
+      -2px -2px 0 orange; /* Sombra superior izquierda (rojo) */
+  }
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
+  width: 20%; /* Ajusta según tu necesidad */
+  max-width: 300px; /* Ajusta según tu necesidad */
+  margin: 10px; /* Espacio desde los bordes del viewport */
+}

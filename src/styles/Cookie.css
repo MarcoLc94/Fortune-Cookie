@@ -1,0 +1,29 @@
+div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+
+  .phrase {
+    padding: 8%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px 15px 15px 15px;
+    width: 80vw;
+    height: 60vh;
+
+    p {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+
+  .author {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    padding: 18px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+  }
+}
