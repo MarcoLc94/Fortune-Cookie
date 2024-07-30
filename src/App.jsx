@@ -26,7 +26,7 @@ function App() {
         setBgSelected={setBgSelected}
       />
       <img
-        src="../public/klipartz.com.png"
+        src="../src/assets/klipartz.com.png"
         alt="Manos abriendo una galleta de la fortuna"
         className="overlay-image"
       />
